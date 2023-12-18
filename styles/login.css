@@ -154,7 +154,7 @@ button:hover {
         font-size: x-large;
     }
     .login-container {
-        width: 50%; 
+        width: 55%; 
         margin: 10% auto;
         display: flex;
         flex-direction: column;
