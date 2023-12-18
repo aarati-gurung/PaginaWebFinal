@@ -211,4 +211,10 @@ header{
         align-items: center;
         justify-content: center;
     }
+    .four{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
 }
