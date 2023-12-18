@@ -194,5 +194,7 @@ header{
         height: 100%;
         margin-left: 4%;
         margin-right: 4%;
+        align-items: center;
+        justify-content: center;
     }
 }
