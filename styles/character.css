@@ -179,6 +179,12 @@ header{
         display: flex;
         flex-direction: column;
     }  
+    .all{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 @media only screen and (max-width: 400px){
@@ -201,6 +207,7 @@ header{
     }
     .all{
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
     }
