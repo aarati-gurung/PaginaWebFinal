@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../imagen/jujutsu-kaisen-anime-characters-uhdpaper.com-4K-7.3214.jpg);
+    background-size: cover;
+}
+header{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 12vh;
+}
+.one1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 13px;
+}
+.anime{
+    display: flex;
+    margin-left: 4%;
+    margin-right: 5%;
+    font-family: 'Aladin';
+}
+.text{
+    text-decoration: none;
+    color: white;
+}
+.links{
+    justify-content: center;
+    height: 9vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    justify-content: end;
+    align-items: center;
+    flex-direction: row;
+    text-decoration: none;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-size: large;
+    font-family: 'Shizuru';
+}
+.link:hover{
+    background-color: rgb(80, 20, 40);
+    border: 3px solid rgb(80, 20, 40);
+    border-radius: 5px;
+    border-width: auto;
+}
+.login{
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: rgb(11, 1, 1);
+    font-size: large;
+    font-family: 'Shizuru';
+}
+.login:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(197, 181, 252);
+    border: 3px solid rgb(197, 181, 252);
+    border-radius: 5px;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7.5%;
+    margin-top: 1.5%;
+}
+.two{
+    display: flex;
+    justify-content: center;
+}
+.three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px black solid;
+    border-radius: 20px;
+    color: white;
+    background-color:rgba(37, 35, 35, 0.7);
+    width: auto;
+}
+.three1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.info{
+    margin-top: 10px;
+    font-family: 'Shizuru';
+    text-align: center;
+}
+.gif{
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    margin: 13px;
+    overflow-x: auto ;
+}
+#img{
+    width: 25%;
+    border-radius: 40px;
+}
+#img1{
+    margin: 9px;
+    border-radius: 40px;
+    width: 35%;
+}
+#img1:hover{
+    transform: scale(1.05);
+}
+#img2{
+    width: 100%;
+}
+#img3{
+    width: 15%;
+}
+.parf{
+    padding: 25px;
+    font-family: 'Jost';
+}
+
+.four{
+    background-color: black;
+    display: flex;
+    border-radius: 17px;
+    text-align: center;
+    width: fit-content;
+    margin-top: 20px;
+}
+.next{
+    color: white;
+    text-decoration: none;
+    font-family: 'Shizuru';
+    margin: 20px;
+}
+.four:hover{
+    background-color: rgb(77, 77, 77);
+}
+
+@media only screen and (max-width: 768px) {
+    .link{
+        font-size: small;
+    }
+    .login{
+        font-size: small;
+    }
+    h1{
+        font-size: x-large;
+    }
+    .info{
+        text-align: center;
+    }
+    #img1{
+        width: 65%;
+    }
+    #img1:hover{
+        transform: scale(1.2);
+    }
+    .parf{
+        overflow: auto;
+    }
+    .gif{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        overflow: auto;
+        height: 30vh;
+    }
+    .three1{
+        flex-direction: column;
+    }
+    #img2{
+        width: 30%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 400px){
+    .link{
+        font-size: x-small;
+    }
+    .login{
+        font-size: x-small;
+    }
+}

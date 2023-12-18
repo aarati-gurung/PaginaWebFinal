@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../imagen/jujutsu-kaisen-satoru-gojo-suguru-geto-shoko-ieiri-uhdpaper.com-4K-8.2563.jpg);
+    background-size: cover;
+}
+header{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 12vh;
+}
+.one1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.anime{
+    display: flex;
+    margin-left: 4%;
+    margin-right: 5%;
+    font-family: 'Aladin';
+}
+.text{
+    text-decoration: none;
+    color: white;
+}
+.links{
+    justify-content: center;
+    height: 9vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    justify-content: end;
+    align-items: center;
+    flex-direction: row;
+    text-decoration: none;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-size: large;
+    font-family: 'Shizuru';
+}
+.link:hover{
+    background-color: rgb(80, 20, 40);
+    border: 3px solid rgb(80, 20, 40);
+    border-radius: 5px;
+    border-width: auto;
+}
+.login{
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: rgb(11, 1, 1);
+    font-size: large;
+    font-family: 'Shizuru';
+}
+.login:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(197, 181, 252);
+    border: 3px solid rgb(197, 181, 252);
+    border-radius: 5px;
+}
+#img{
+    width: 25%;
+    border-radius: 40px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+}
+.login-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 95%;
+    padding: 30px;
+}
+.image{
+    display: flex;
+}
+#image{
+    width: 100%;
+    height: auto;
+}
+.log{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Jost';
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-family: 'Shizuru';
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #008080;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Shizuru';
+}
+
+button:hover {
+    background-color: #006666;
+}
+
+@media only screen and (max-width: 768px) {
+    .link{
+        font-size: small;
+    }
+    .login{
+        font-size: small;
+    }
+    h1{
+        font-size: x-large;
+    }
+    .login-container {
+        width: 50%; 
+        margin: 10% auto;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .log {
+        width: 80%;
+    }
+    .image{
+        width: 97%;
+    }
+}
+@media only screen and (max-width: 400px){
+    .link{
+        font-size: x-small;
+    }
+    .login{
+        font-size: x-small;
+    }
+}

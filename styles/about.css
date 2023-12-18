@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../imagen/jujutsu-kaisen-anime-characters-uhdpaper.com-4K-8.1755.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 12vh;
+}
+.one1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.anime{
+    display: flex;
+    margin-left: 4%;
+    margin-right: 5%;
+    font-family: 'Aladin';
+}
+.text{
+    text-decoration: none;
+    color: white;
+}
+.links{
+    justify-content: center;
+    height: 9vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    justify-content: end;
+    align-items: center;
+    flex-direction: row;
+    text-decoration: none;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-size: large;
+    font-family: 'Shizuru';
+}
+.link:hover{
+    background-color: rgb(80, 20, 40);
+    border: 3px solid rgb(80, 20, 40);
+    border-radius: 5px;
+    border-width: auto;
+}
+.login{
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: rgb(11, 1, 1);
+    font-size: large;
+    font-family: 'Shizuru';
+}
+.login:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(197, 181, 252);
+    border: 3px solid rgb(197, 181, 252);
+    border-radius: 5px;
+}
+#img{
+    width: 25%;
+    border-radius: 40px;
+}
+#img1{
+    width: 50%;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+
+}
+.jjk{
+    font-family: 'Shizuru';
+    display: flex;
+    color: rgb(255, 252, 162);
+    font-size: x-large;
+    flex-wrap: wrap;
+    margin: 20px;
+    background-color: rgb(137, 5, 5);
+    border-radius: 10px;
+    box-shadow: 10px 11px 10px 1px rgb(71, 11, 5);
+}
+.jk{
+    margin:20px;
+}
+.three{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
+    background-color: rgba(81, 10, 10, 0.7);
+}
+.praf{
+    width: fit-content;
+    padding: 30px;
+    color: white;
+    font-family: 'Jost';
+}
+.four{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1%;
+    font-family: 'Shizuru';
+}
+#button{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+.back, .next, .more{
+    width: fit-content;
+    display: flex;
+    border-radius: 17px;
+    text-align: center;
+    width: fit-content;
+    margin-top: 20px;
+    background-color: rgb(0, 0, 0);
+}
+
+.back:hover{
+    background-color: rgb(77, 77, 77);
+}
+.next:hover{
+    background-color: rgb(77, 77, 77);
+}
+.more:hover{
+    background-color: rgb(93, 10, 10);
+}
+
+@media only screen and (max-width: 768px) {
+    .link{
+        font-size: small;
+    }
+    .login{
+        font-size: small;
+    }
+    h1{
+        font-size: x-large;
+    }
+    .two, .three{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .three{
+        overflow: auto;
+    }
+    .four{
+        margin-bottom: 20px;
+    }
+    iframe{
+        width: fit-content;
+        height: fit-content;
+    }
+}
+@media only screen and (max-width: 400px){
+    .link{
+        font-size: x-small;
+    }
+    .login{
+        font-size: x-small;
+    }
+}
